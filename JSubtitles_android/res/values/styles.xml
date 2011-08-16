@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="main_text_style">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:textSize">20sp</item>
+		<!-- <item name="android:typeface">monospace</item> -->
+		<item name="android:typeface">sans</item>
+		<item name="android:gravity">center</item>
+	</style>
+
+	<style name="timestamp_text_style">
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:textSize">12sp</item>
+		<!-- <item name="android:background">#555</item> -->
+		<!-- <item name="android:textColor">#0000FF</item> -->
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:paddingLeft">5px</item>
+	</style>
+
+	<style name="load_icon">
+		<item name="android:layout_width">48px</item>
+		<item name="android:layout_height">48px</item>
+		<item name="android:background">@drawable/load</item>
+		<item name="android:gravity">right</item>
+	</style>
+
+	<style name="panel_with_text_style">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:orientation">vertical</item>
+		<item name="android:layout_weight">1</item>
+	</style>
+
+	<style name="lock_button_style">
+		<item name="android:layout_width">48px</item>
+		<item name="android:layout_height">48px</item>
+		<item name="android:background">@drawable/lock_button_bg</item>
+		<item name="android:textOn"></item>
+		<item name="android:textOff"></item>
+		<item name="android:disabledAlpha">?android:attr/disabledAlpha</item>
+		<item name="android:gravity">center</item>
+	</style>
+
+</resources>

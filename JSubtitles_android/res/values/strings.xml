@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, JSubtitlesActivity!</string>
+	<string name="app_name">JSubtitles</string>
+	<string name="timestamp">00:00:00.00</string>
+</resources>
